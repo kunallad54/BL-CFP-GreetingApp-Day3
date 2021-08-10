@@ -15,6 +15,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 @RestController
 public class GreetingController {
+
     private static final String template = "Hello %s Welcome to Bridgelabz";
     private final AtomicLong counter = new AtomicLong();
 
@@ -66,4 +67,5 @@ public class GreetingController {
     /**
      * Execution URL : curl -X PUT localhost:8080/putGreeting/1/?content=Krunal -w "\n"
      */
+
 }
